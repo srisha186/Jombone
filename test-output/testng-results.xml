@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9111" started-at="2022-06-22T10:40:33 EDT" finished-at="2022-06-22T10:40:42 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9111" started-at="2022-06-22T10:40:33 EDT" finished-at="2022-06-22T10:40:42 EDT">
+      <class name="com.testCases2.JMB_DB_005">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases2.JMB_DB_005@192d3247]" name="setup" is-config="true" duration-ms="4030" started-at="2022-06-22T10:40:33 EDT" finished-at="2022-06-22T10:40:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validEmailandPwd()[pri:1, instance:com.testCases2.JMB_DB_005@192d3247]" name="validEmailandPwd" duration-ms="3229" started-at="2022-06-22T10:40:37 EDT" finished-at="2022-06-22T10:40:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailandPwd -->
+        <test-method status="PASS" signature="candidateprofilePage()[pri:2, instance:com.testCases2.JMB_DB_005@192d3247]" name="candidateprofilePage" duration-ms="1080" started-at="2022-06-22T10:40:40 EDT" finished-at="2022-06-22T10:40:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- candidateprofilePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases2.JMB_DB_005@192d3247]" name="tearDown" is-config="true" duration-ms="740" started-at="2022-06-22T10:40:41 EDT" finished-at="2022-06-22T10:40:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases2.JMB_DB_005 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

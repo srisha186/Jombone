@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testCases2.JMB_DB_001"/>
+      <class name="com.testCases2.JMB_DB_002"/>
+      <class name="com.testCases2.JMB_DB_010"/>
+      <class name="com.testCases2.JMB_DB_005"/>
+      <class name="com.testCases2.JMB_DB_006"/>
+      <class name="com.testCases2.JMB_DB_003"/>
+      <class name="com.testCases2.JMB_DB_004"/>
+      <class name="com.testCases2.JMB_DB_007"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

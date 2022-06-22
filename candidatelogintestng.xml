@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Candidate LoginSuite">
+	<!-- 1) thread-count: This is used for parallel execution, based on the 
+		number script. It will execute in parallel or sequential order. 2) verbose: 
+		It is used to log the execution details in the console. The value should 
+		be 1-10. The log details in the console window will get more detailed and 
+		clearer as you increase the value of the verbose attribute in the testng.xml 
+		configuration file. 3) name: Name of the suite. 4) Parallel: To run scripts 
+		parallel, value can be tests/classes/methods/suites. Default value is none -->
+	<listeners>
+		<listener class-name="com.utilities.Reporting" />
+	</listeners>
+	<test name="Candidate login" thread-count="8">
+
+		<classes>
+			<class name="com.testCases.JMB_CALogin_001" />
+			<class name="com.testCases.JMB_CALogin_002" />
+			<class name="com.testCases.JMB_CALogin_003" />
+			<class name="com.testCases.JMB_CALogin_004" />
+			<class name="com.testCases.JMB_CALogin_005" />
+			<class name="com.testCases.JMB_CALogin_006" />
+			<class name="com.testCases.JMB_CALogin_007" />
+			<class name="com.testCases.JMB_CALogin_008" />
+		</classes>	
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
